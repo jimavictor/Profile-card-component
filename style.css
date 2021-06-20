@@ -64,18 +64,26 @@ hr {
 }
 
 .card-container {
-  width: 24rem;
+  width: 70%;
+  max-width: 25rem;
   min-height: 30rem;
 }
 
 img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   max-height: 100%;
   max-width: 100%;
   border-radius: 50%;
   border: 5px solid white;
   z-index: 1;
   position: relative;
-  top: -24rem;
+  top: 63%;
+  left: 36%;
 }
 
 .stats {
@@ -109,3 +117,24 @@ img {
   font-size: 18px;
   font-weight: bolder;
 }
+
+@media screen and (max-width: 520px) {
+  .card-container {
+    width: 20em;
+  }
+  img {
+    position: relative;
+    left: 34%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card-container {
+    width: 18em;
+  }
+  img {
+    position: relative;
+    left: 32%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
