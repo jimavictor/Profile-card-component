@@ -24,7 +24,7 @@ body {
   flex-direction: column;
   font-weight: bold;
   background-color: #19a2ae;
-  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
   background-size: 118% 130%, 80% 100%;
   background-repeat: no-repeat;
   background-position: -72vw -72vh, 48vw 45vh;
